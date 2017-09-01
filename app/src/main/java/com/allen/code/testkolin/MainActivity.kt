@@ -34,6 +34,9 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
+
+
     fun toast(text: String, during: Int = Toast.LENGTH_LONG) {
         async() {
             Request("https://www.baidu.com/").run()
